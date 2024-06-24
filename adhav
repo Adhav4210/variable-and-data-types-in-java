@@ -1,0 +1,90 @@
+data types and variables in java
+/**
+ * 
+ */
+package demo;
+
+/**
+ * 
+ */
+public class Program1 {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		// variables
+		
+int passengers; // declare
+passengers=0; // initial
+passengers=passengers+6;
+passengers=passengers-3;
+passengers=passengers-3+5;
+System.out.println(passengers);
+
+// multi variable
+int stop;
+int fare;
+stop=0;
+fare=0;
+stop=stop+1;
+fare=fare+5;
+stop=stop+1;
+fare=fare+3;
+stop=stop+1;
+fare=fare+7;
+System.out.println(stop);
+
+// String 
+
+String driver;
+driver="ADHAVAN";
+int letter = driver.length();
+System.out.println(letter);
+driver=driver.toLowerCase();
+System.out.println(driver);
+
+// cancatenation
+
+String driverfirstname;
+driverfirstname="Adhav";
+String driversecondname;
+driversecondname="swathi";
+String driverfullname=driverfirstname+driversecondname;
+System.out.println(driverfullname);
+
+// turncation
+
+double current =17;
+double rate=1.5;
+double future =( current*rate);
+System.out.println(future);
+int approx=(int)future;
+System.out.println(approx); // casting
+int x=5;
+int y=2;
+double div=x/y;
+System.out.println(div);
+double accurate=(double)x/y;
+System.out.println(accurate);
+
+double english=97.5;
+double science=98;
+double maths=83.5;
+double social=75;
+double sum=english+science+maths+social;
+double average= sum/4;
+System.out.println(average);
+
+/*(To convert from Fahrenheit to Celsius, subtract 32,
+then multiply by 5, then divide by 9.)*/
+
+double fahrenheit= 68.0;
+double celcius;
+celcius=(fahrenheit-32)*5/9;
+System.out.println(celcius);
+	}
+}
+
